@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.uni-padding{
+    padding: 0px 7%;
+} 
+
+#contact{
+    background-color: #c7d3e3;
+    padding-top: 10px;
+    padding-bottom: 30px;
+
+}
+#contact h2{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+}
+#contact_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+.contact_sec_1{
+  width: 300px;
+  height: 200px;
+  border: 2px solid grey;
+  padding: 10px;
+  margin-right: 50px;
+  border-radius: 20px;
+  /* text-align: center; */
+  border-color: white;
+}
+.contact_sec_1:hover{
+    background-color: #8da7ca;
+    color: white;
+
+}
+.contact_sec_1:hover{
+ transition: all 0.5s ease;
+}
+.contact_sec_1 h3{
+    color: #886a6a;
+    font-size: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+
+}
+form .form_inp{
+    margin-bottom: 6px;
+    text-align: center;
+  
+}
+form .form_inp input,textarea{
+    border: 0px;
+    outline: none;
+    width: 200px;
+    padding: 2px;
+   
+}
+form .form_inp input, textarea::placeholder{
+    padding-left: 4px;
+    
+}
+textarea{
+ resize: none;
+}
+#btn{
+    text-align: center;
+}
+#btn button{
+    border: 0px;
+    outline: none;
+    padding: 2px 12px 2px 12px;
+    color: white;
+    border-radius: 10px;
+    background-color:#8da7ca;;
+}
+#btn button:hover{
+    cursor: pointer;
+    background-color: #04AA6D;
+}
+.fa-solid{
+   color:  #04AA6D;
+   font: 7px;
+
+}
+.fa-regular{
+    color:  #04AA6D;
+    font: 7px;
+}
+.contact_sec_1 p{
+    text-align: center;
+    margin-bottom: 2px;
+    color: white;
+    font-size: 14px;
+}
+.fa-phone{
+    margin-right: 4px;
+}
+.fa-envelope{
+    margin-right: 4px;
+}
+.fa-location-dot{
+    margin-right: 4px;  
+}
+
+/* Responsive Mobile */
+@media only screen and (max-width:500px){
+    #contact {
+        padding-bottom: 0px;
+    }
+    #contact_section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .contact_sec_1 {
+        width: 100%;
+        height: auto;
+        border: 2px solid grey;
+        padding-left: 10px;
+        border-radius: 20px;
+        border-color: white;
+        margin-bottom: 25px;
+        margin-right: 0px;
+    }
+   .fa-solid{
+    font-size: 14px;
+   }
+   .fa-regular{
+    font-size: 14px;
+   }
+}
